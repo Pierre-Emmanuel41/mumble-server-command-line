@@ -79,6 +79,9 @@ public enum EMumbleServerCode implements ICode {
 	// Code when the server has been closed
 	MUMBLE_SERVER_CL__CLOSE__SERVER_CLOSED,
 
+	// Code for the "channel" command -------------------------------------------------------------
+	MUMBLE_SERVER_CL__CHANNEL__EXPLANATION,
+
 	;
 
 	@Override

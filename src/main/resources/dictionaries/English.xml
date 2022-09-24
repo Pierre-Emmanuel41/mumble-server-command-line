@@ -109,5 +109,9 @@
 			<code>MUMBLE_SERVER_CL__CLOSE__SERVER_CLOSED</code>
 			<value>The Mumble server %s has been closed</value>
 		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__CHANNEL__EXPLANATION</code>
+			<value>To add/remove channels from a server or to add/remove players from a channel</value>
+		</message>
 	</messages>
 </dictionary>	

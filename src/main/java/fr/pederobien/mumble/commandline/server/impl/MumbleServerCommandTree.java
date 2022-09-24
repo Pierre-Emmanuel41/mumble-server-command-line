@@ -17,6 +17,7 @@ public class MumbleServerCommandTree {
 	private ICommandRootNode<ICode> root;
 	private OpenServerNode openNode;
 	private CloseServerNode closeNode;
+	private ChannelNode channelNode;
 
 	public MumbleServerCommandTree() {
 		Consumer<INode<ICode>> displayer = node -> {
@@ -28,6 +29,7 @@ public class MumbleServerCommandTree {
 		root = new CommandRootNode<ICode>("vocal", EMumbleServerCode.MUMBLE_SERVER_CL__ROOT__EXPLANATION, () -> true, displayer);
 		root.add(openNode = new OpenServerNode(this));
 		root.add(closeNode = new CloseServerNode(this));
+		root.add(channelNode = new ChannelNode(() -> getServer()));
 	}
 
 	/**
@@ -54,16 +56,23 @@ public class MumbleServerCommandTree {
 	}
 
 	/**
-	 * @return The node that open a mumble server.
+	 * @return The node that opens a mumble server.
 	 */
 	public OpenServerNode getOpenNode() {
 		return openNode;
 	}
 
 	/**
-	 * @return The node that close a mumble server.
+	 * @return The node that closes a mumble server.
 	 */
 	public CloseServerNode getCloseNode() {
 		return closeNode;
+	}
+
+	/**
+	 * @return The node that adds or removes channel from a mumble server or adds/removes players from a channel.
+	 */
+	public ChannelNode getChannelNode() {
+		return channelNode;
 	}
 }
