@@ -73,6 +73,12 @@ public enum EMumbleServerCode implements ICode {
 	// Code when the vocal port equals the configuration port
 	MUMBLE_SERVER_CL__OPEN__STANDALONE_SERVER_OPENED,
 
+	// Code for the "close" command ---------------------------------------------------------------
+	MUMBLE_SERVER_CL__CLOSE__EXPLANATION,
+
+	// Code when the server has been closed
+	MUMBLE_SERVER_CL__CLOSE__SERVER_CLOSED,
+
 	;
 
 	@Override

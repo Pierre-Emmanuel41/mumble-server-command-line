@@ -99,5 +99,13 @@
 			<code>MUMBLE_SERVER_CL__OPEN__STANDALONE_SERVER_OPENED</code>
 			<value>Le serveur Mumble %s a été ouvert: Le port de configuration est %s, le port vocal est %s, le port de jeu est %s</value>
 		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__CLOSE__EXPLANATION</code>
+			<value>Pour fermer un serveur Mumble</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__CLOSE__SERVER_CLOSED</code>
+			<value>Le serveur Mumble %s a été fermé</value>
+		</message>
 	</messages>
 </dictionary>
