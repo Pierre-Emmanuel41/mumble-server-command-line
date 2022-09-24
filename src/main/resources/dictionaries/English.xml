@@ -1,0 +1,105 @@
+<dictionary>
+	<version>1.0</version>
+	<locales>
+		<locale>en</locale>
+		<locale>en-EN</locale>
+		<locale>en-GB</locale>
+		<locale>en-UK</locale>
+		<locale>en-US</locale>
+		<locale>en-CA</locale>
+	</locales>
+	<messages>
+		<message>
+			<code>MUMBLE_SERVER_CL__STARTING</code>
+			<value>Starting Mumble server command line</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__STARTING__IGNORING_ARGUMENTS__NOT_ENOUGH_ARGUMENT</code>
+			<value>Ignoring arguments, arguments expected: "&lt;name&gt; [&lt;simple&gt;|&lt;standalone&gt;] &lt;configuration port&gt; &lt;vocal port&gt; &lt;game port&gt;"</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__STOPPING</code>
+			<value>Stopping Mumble server command line</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__NAME__COMPLETION</code>
+			<value>&lt;name&gt;</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__CONFIGURATION_PORT__COMPLETION</code>
+			<value>&lt;configuration port&gt;</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__VOCAL_PORT__COMPLETION</code>
+			<value>&lt;vocal port&gt;</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__GAME_PORT__COMPLETION</code>
+			<value>&lt;game port&gt;</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__ROOT__EXPLANATION</code>
+			<value>To perform changes on a Mumble server</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__OPEN__EXPLANATION</code>
+			<value>To open a Mumble server</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__OPEN__NAME_IS_MISSING</code>
+			<value>Cannot open a Mumble server, the server name is missing</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__OPEN__TYPE_IS_MISSING</code>
+			<value>Cannot open %s, the server type is missing</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__OPEN__TYPE_NOT_FOUND</code>
+			<value>Cannot open %s, the server type must be either "simple" or "standalone"</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__OPEN__CONFIGURATION_PORT_IS_MISSING</code>
+			<value>Cannot open %s, the configuration port number is missing</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__OPEN__CONFIGURATION_PORT_BAD_FORMAT</code>
+			<value>Cannot open %s, the configuration port number has a bad format, expected an integer</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__OPEN__VOCAL_PORT_IS_MISSING</code>
+			<value>Cannot open %s, the vocal port number is missing</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__OPEN__VOCAL_PORT_BAD_FORMAT</code>
+			<value>Cannot open %s, the vocal port number has a bad format, expected an integer</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__OPEN__VOCAL_PORT_ALREADY_USED</code>
+			<value>Cannot open %s, the vocal port number should not be equal to the configuration port number</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__OPEN__SERVER_TYPE_DISMATCH</code>
+			<value>Cannot open %s, a configuration file already exists and is associated to type "%s", expected "%s"</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__OPEN__SIMPLE_SERVER_OPENED</code>
+			<value>Mumble server %s has been opened: Configuration port is %s, vocal port is %s</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__OPEN__GAME_PORT_IS_MISSING</code>
+			<value>Cannot open %s, the game port number is missing</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__OPEN__GAME_PORT_BAD_FORMAT</code>
+			<value>Cannot open %s, the game port number has a bad format, expected an integer</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__OPEN__GAME_PORT_ALREADY_USED</code>
+			<value>Cannot open %s, the game port number must neither be equal to the configuration port number nor the vocal port number</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__OPEN__STANDALONE_SERVER_OPENED</code>
+			<value>Mumble server %s has been opened: Configuration port is %s, vocal port is %s, game port is %s</value>
+		</message>
+	</messages>
+</dictionary>	

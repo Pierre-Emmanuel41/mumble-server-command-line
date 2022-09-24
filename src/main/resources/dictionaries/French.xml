@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+	<version>1.0</version>
+	<locales>
+		<locale>fr</locale>
+		<locale>fr-FR</locale>
+		<locale>fr-CA</locale>
+	</locales>
+	<messages>
+		<message>
+			<code>MUMBLE_SERVER_CL__STARTING</code>
+			<value>Démarrage de Mumble server command line</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__STARTING__IGNORING_ARGUMENTS__NOT_ENOUGH_ARGUMENT</code>
+			<value>Arguments non pris en compte, arguments attendus : "&lt;nom&gt; [&lt;simple&gt;|&lt;standalone&gt;] &lt;port de configuration&gt; &lt;port vocal&gt; &lt;port de jeux&gt;"</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__STOPPING</code>
+			<value>Arrêt de Mumble server command line</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__NAME__COMPLETION</code>
+			<value>&lt;nom&gt;</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__CONFIGURATION_PORT__COMPLETION</code>
+			<value>&lt;Port de configuration&gt;</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__VOCAL_PORT__COMPLETION</code>
+			<value>&lt;Port vocal&gt;</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__GAME_PORT__COMPLETION</code>
+			<value>&lt;Port de jeu&gt;</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__ROOT__EXPLANATION</code>
+			<value>Pour effectuer des modifications sur un serveur Mumble.</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__OPEN__EXPLANATION</code>
+			<value>Pour ouvrir un serveur Mumble</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__OPEN__NAME_IS_MISSING</code>
+			<value>Impossible d'ouvrir un serveur Mumble, le nom du serveur est manquant</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__OPEN__TYPE_IS_MISSING</code>
+			<value>Impossible d'ouvrir %s, le type de serveur est manquant</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__OPEN__TYPE_NOT_FOUND</code>
+			<value>Impossible d'ouvrir %s, le type de serveur est soit "simple" soit "standalone"</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__OPEN__CONFIGURATION_PORT_IS_MISSING</code>
+			<value>Impossible d'ouvrir %s, le port de configuration est manquant</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__OPEN__CONFIGURATION_PORT_BAD_FORMAT</code>
+			<value>Impossible d'ouvrir %s, le port de configuration a un mauvais, un entier est attendu</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__OPEN__VOCAL_PORT_IS_MISSING</code>
+			<value>Impossible d'ouvrir %s, le port vocal est manquant</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__OPEN__VOCAL_PORT_BAD_FORMAT</code>
+			<value>Impossible d'ouvrir %s, le port vocal a un mauvais, un entier est attendu</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__OPEN__VOCAL_PORT_ALREADY_USED</code>
+			<value>Impossible d'ouvrir %s, le port vocal ne doit pas être égale au port de configuration</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__OPEN__SERVER_TYPE_DISMATCH</code>
+			<value>Impossible d'ouvrir %s, un fichier de configuration existe déjà et est associé au type "%s", le type "%s" est attendu</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__OPEN__SIMPLE_SERVER_OPENED</code>
+			<value>Le serveur Mumble %s a été ouvert: Le port de configuration est %s, le port vocal est %s</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__OPEN__GAME_PORT_IS_MISSING</code>
+			<value>Impossible d'ouvrir %s, le port de jeu est manquant</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__OPEN__GAME_PORT_BAD_FORMAT</code>
+			<value>Impossible d'ouvrir %s, le port de jeu a un mauvais, un entier est attendu</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__OPEN__GAME_PORT_ALREADY_USED</code>
+			<value>Impossible d'ouvrir %s, le port de jeu ne doit pas être égale ni au port de communication ni au port vocal</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__OPEN__STANDALONE_SERVER_OPENED</code>
+			<value>Le serveur Mumble %s a été ouvert: Le port de configuration est %s, le port vocal est %s, le port de jeu est %s</value>
+		</message>
+	</messages>
+</dictionary>
