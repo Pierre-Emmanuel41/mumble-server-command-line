@@ -106,7 +106,20 @@ public enum EMumbleServerCode implements ICode {
 	// Code for the "channel remove" command ------------------------------------------------------
 	MUMBLE_SERVER_CL__CHANNEL__REMOVE__EXPLANATION,
 
-	;
+	// Code for the "channel remove channel" command ----------------------------------------------
+	MUMBLE_SERVER_CL__CHANNEL__REMOVE__CHANNEL__EXPLANATION,
+
+	// Code when the channel to remove does not exist
+	MUMBLE_SERVER_CL__CHANNEL__REMOVE__CHANNEL__CHANNEL_NOT_FOUND,
+
+	// Code when no channel has been removed
+	MUMBLE_SERVER_CL__CHANNEL__REMOVE__CHANNEL__NO_CHANNEL_REMOVED,
+
+	// Code when one channel has been removed
+	MUMBLE_SERVER_CL__CHANNEL__REMOVE__CHANNEL__ONE_CHANNEL_REMOVED,
+
+	// Code when several channels have been removed
+	MUMBLE_SERVER_CL__CHANNEL__REMOVE__CHANNEL__SEVERAL_CHANNELS_REMOVED,;
 
 	@Override
 	public String getCode() {

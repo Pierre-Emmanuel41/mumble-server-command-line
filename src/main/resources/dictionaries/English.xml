@@ -145,5 +145,25 @@
 			<code>MUMBLE_SERVER_CL__CHANNEL__REMOVE__EXPLANATION</code>
 			<value>To remove channels from a mumble server or players from a channel</value>
 		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__CHANNEL__REMOVE__CHANNEL__EXPLANATION</code>
+			<value>To remove channels from a mumble server</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__CHANNEL__REMOVE__CHANNEL__CHANNEL_NOT_FOUND</code>
+			<value>Cannot remove %s from %s, the channel does not exist</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__CHANNEL__REMOVE__CHANNEL__NO_CHANNEL_REMOVED</code>
+			<value>No channel has been removed from %s</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__CHANNEL__REMOVE__CHANNEL__ONE_CHANNEL_REMOVED</code>
+			<value>Channel %s has been removed from %s</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__CHANNEL__REMOVE__CHANNEL__SEVERAL_CHANNELS_REMOVED</code>
+			<value>Channels %s have been removed from %s</value>
+		</message>
 	</messages>
 </dictionary>	
