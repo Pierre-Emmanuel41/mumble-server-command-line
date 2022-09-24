@@ -113,5 +113,9 @@
 			<code>MUMBLE_SERVER_CL__CHANNEL__EXPLANATION</code>
 			<value>To add/remove channels from a server or to add/remove players from a channel</value>
 		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__CHANNEL__ADD__EXPLANATION</code>
+			<value>To add a channel to a mumble server or players to a channel</value>
+		</message>
 	</messages>
 </dictionary>	

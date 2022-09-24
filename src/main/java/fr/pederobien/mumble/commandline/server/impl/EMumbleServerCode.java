@@ -82,6 +82,9 @@ public enum EMumbleServerCode implements ICode {
 	// Code for the "channel" command -------------------------------------------------------------
 	MUMBLE_SERVER_CL__CHANNEL__EXPLANATION,
 
+	// Code for the "channel add" command ---------------------------------------------------------
+	MUMBLE_SERVER_CL__CHANNEL__ADD__EXPLANATION,
+
 	;
 
 	@Override
