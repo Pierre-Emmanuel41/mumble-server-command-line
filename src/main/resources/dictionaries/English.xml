@@ -165,5 +165,29 @@
 			<code>MUMBLE_SERVER_CL__CHANNEL__REMOVE__CHANNEL__SEVERAL_CHANNELS_REMOVED</code>
 			<value>Channels %s have been removed from %s</value>
 		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__CHANNEL__RENAME__EXPLANATION</code>
+			<value>To rename a channel</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__CHANNEL__RENAME__NAME_IS_MISSING</code>
+			<value>Cannot rename a channel, the name of the channel to rename is missing</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__CHANNEL__RENAME__CHANNEL_NOT_FOUND</code>
+			<value>Cannot rename %s, the channel does not exist</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__CHANNEL__RENAME__NEW_NAME_IS_MISSING</code>
+			<value>Cannot rename %s, the new channel name is missing</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__CHANNEL__RENAME__CHANNEL_ALREADY_REGISTERED</code>
+			<value>Cannot rename %s as %s, the channel is already registered</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__CHANNEL__RENAME__CHANNEL_RENAMED</code>
+			<value>Channel %s has been renamed as %s</value>
+		</message>
 	</messages>
 </dictionary>	

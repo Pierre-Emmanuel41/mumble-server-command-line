@@ -119,7 +119,27 @@ public enum EMumbleServerCode implements ICode {
 	MUMBLE_SERVER_CL__CHANNEL__REMOVE__CHANNEL__ONE_CHANNEL_REMOVED,
 
 	// Code when several channels have been removed
-	MUMBLE_SERVER_CL__CHANNEL__REMOVE__CHANNEL__SEVERAL_CHANNELS_REMOVED,;
+	MUMBLE_SERVER_CL__CHANNEL__REMOVE__CHANNEL__SEVERAL_CHANNELS_REMOVED,
+
+	// Code for the "channel rename" command ------------------------------------------------------
+	MUMBLE_SERVER_CL__CHANNEL__RENAME__EXPLANATION,
+
+	// Code when the name of the channel to rename is missing
+	MUMBLE_SERVER_CL__CHANNEL__RENAME__NAME_IS_MISSING,
+
+	// Code when the channel to rename does not exist
+	MUMBLE_SERVER_CL__CHANNEL__RENAME__CHANNEL_NOT_FOUND,
+
+	// Code when the channel to rename does not exist
+	MUMBLE_SERVER_CL__CHANNEL__RENAME__NEW_NAME_IS_MISSING,
+
+	// Code when a channel is already registered
+	MUMBLE_SERVER_CL__CHANNEL__RENAME__CHANNEL_ALREADY_REGISTERED,
+
+	// Code when a channel has been renamed
+	MUMBLE_SERVER_CL__CHANNEL__RENAME__CHANNEL_RENAMED,
+
+	;
 
 	@Override
 	public String getCode() {

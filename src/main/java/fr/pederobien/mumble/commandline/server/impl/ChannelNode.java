@@ -7,6 +7,7 @@ import fr.pederobien.mumble.server.interfaces.IMumbleServer;
 public class ChannelNode extends MumbleServerNode {
 	private ChannelAddNode addNode;
 	private ChannelRemoveNode removeNode;
+	private ChannelRenameNode renameNode;
 
 	/**
 	 * Creates a node that adds or removes channel from a mumble server or adds/removes players from a channel.
@@ -18,6 +19,7 @@ public class ChannelNode extends MumbleServerNode {
 
 		add(addNode = new ChannelAddNode(server));
 		add(removeNode = new ChannelRemoveNode(server));
+		add(renameNode = new ChannelRenameNode(server));
 	}
 
 	/**
@@ -32,5 +34,12 @@ public class ChannelNode extends MumbleServerNode {
 	 */
 	public ChannelRemoveNode getRemoveNode() {
 		return removeNode;
+	}
+
+	/**
+	 * @return The node that renames a channel.
+	 */
+	public ChannelRenameNode getRenameNode() {
+		return renameNode;
 	}
 }
