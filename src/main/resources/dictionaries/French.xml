@@ -139,5 +139,9 @@
 			<code>MUMBLE_SERVER_CL__CHANNEL__ADD__CHANNEL__CHANNEL_ADDED</code>
 			<value>Le channel %s a été ajouté à %s</value>
 		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__CHANNEL__REMOVE__EXPLANATION</code>
+			<value>Pour supprimer des channels d'un serveur Mumble ou des joueurs d'un channel</value>
+		</message>
 	</messages>
 </dictionary>

@@ -103,6 +103,9 @@ public enum EMumbleServerCode implements ICode {
 	// Code when a channel has been added to a mumble server
 	MUMBLE_SERVER_CL__CHANNEL__ADD__CHANNEL__CHANNEL_ADDED,
 
+	// Code for the "channel remove" command ------------------------------------------------------
+	MUMBLE_SERVER_CL__CHANNEL__REMOVE__EXPLANATION,
+
 	;
 
 	@Override
