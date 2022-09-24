@@ -140,6 +140,34 @@
 			<value>Le channel %s a été ajouté à %s</value>
 		</message>
 		<message>
+			<code>MUMBLE_SERVER_CL__CHANNEL__ADD__PLAYER__EXPLANATION</code>
+			<value>Pour ajouter des joueurs dans un channel</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__CHANNEL__ADD__PLAYER__CHANNEL_NAME_IS_MISSING</code>
+			<value>Impossible d'ajouter des joueurs dans un channel, le nom du channel est manquant</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__CHANNEL__ADD__PLAYER__CHANNEL_NOT_FOUND</code>
+			<value>Impossible d'ajouter des joueurs dans %S, le channel n'existe pas</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__CHANNEL__ADD__PLAYER__PLAYER_NOT_FOUND</code>
+			<value>Impossible d'ajouter %s à %s, le joueur n'existe pas</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__CHANNEL__ADD__PLAYER__NO_PLAYER_ADDED</code>
+			<value>Aucun joueur n'a été ajouté à %s</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__CHANNEL__ADD__PLAYER__ONE_PLAYER_ADDED</code>
+			<value>Le joueur %s a été ajouté à %s</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__CHANNEL__ADD__PLAYER__SEVERAL_PLAYERS_ADDED</code>
+			<value>Les joueurs %s ont été ajouté à %s</value>
+		</message>
+		<message>
 			<code>MUMBLE_SERVER_CL__CHANNEL__REMOVE__EXPLANATION</code>
 			<value>Pour supprimer des channels d'un serveur Mumble ou des joueurs d'un channel</value>
 		</message>

@@ -6,6 +6,7 @@ import fr.pederobien.mumble.server.interfaces.IMumbleServer;
 
 public class ChannelAddNode extends MumbleServerNode {
 	private ChannelAddChannelNode channelNode;
+	private ChannelAddPlayerNode playerNode;
 
 	/**
 	 * Creates a node in order to add a channel to a mumble server or players to a channel.
@@ -16,6 +17,7 @@ public class ChannelAddNode extends MumbleServerNode {
 		super(server, "add", EMumbleServerCode.MUMBLE_SERVER_CL__CHANNEL__ADD__EXPLANATION, s -> s != null);
 
 		add(channelNode = new ChannelAddChannelNode(server));
+		add(playerNode = new ChannelAddPlayerNode(server));
 	}
 
 	/**
@@ -23,5 +25,12 @@ public class ChannelAddNode extends MumbleServerNode {
 	 */
 	public ChannelAddChannelNode getChannelNode() {
 		return channelNode;
+	}
+
+	/**
+	 * @return The node that add players to a channel.
+	 */
+	public ChannelAddPlayerNode getPlayerNode() {
+		return playerNode;
 	}
 }

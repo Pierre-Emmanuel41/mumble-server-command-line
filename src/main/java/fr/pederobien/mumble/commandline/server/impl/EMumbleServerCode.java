@@ -103,6 +103,27 @@ public enum EMumbleServerCode implements ICode {
 	// Code when a channel has been added to a mumble server
 	MUMBLE_SERVER_CL__CHANNEL__ADD__CHANNEL__CHANNEL_ADDED,
 
+	// Code for the "channel add player" command --------------------------------------------------
+	MUMBLE_SERVER_CL__CHANNEL__ADD__PLAYER__EXPLANATION,
+
+	// Code when the channel name is missing
+	MUMBLE_SERVER_CL__CHANNEL__ADD__PLAYER__CHANNEL_NAME_IS_MISSING,
+
+	// Code when the channel does not exist
+	MUMBLE_SERVER_CL__CHANNEL__ADD__PLAYER__CHANNEL_NOT_FOUND,
+
+	// Code when the player does not exist
+	MUMBLE_SERVER_CL__CHANNEL__ADD__PLAYER__PLAYER_NOT_FOUND,
+
+	// Code when no player has been added to a channel
+	MUMBLE_SERVER_CL__CHANNEL__ADD__PLAYER__NO_PLAYER_ADDED,
+
+	// Code when one player has been added to a channel
+	MUMBLE_SERVER_CL__CHANNEL__ADD__PLAYER__ONE_PLAYER_ADDED,
+
+	// Code when several players have been added to a channel
+	MUMBLE_SERVER_CL__CHANNEL__ADD__PLAYER__SEVERAL_PLAYERS_ADDED,
+
 	// Code for the "channel remove" command ------------------------------------------------------
 	MUMBLE_SERVER_CL__CHANNEL__REMOVE__EXPLANATION,
 
