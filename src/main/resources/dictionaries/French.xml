@@ -115,5 +115,29 @@
 			<code>MUMBLE_SERVER_CL__CHANNEL__ADD__EXPLANATION</code>
 			<value>Pour ajouter un channel à un serveur Mumble ou des joueurs à un channel</value>
 		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__CHANNEL__ADD__CHANNEL__EXPLANATION</code>
+			<value>Pour ajouter un channel a un server mumble</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__CHANNEL__ADD__CHANNEL__NAME_IS_MISSING</code>
+			<value>Impossible d'ajouter un channel à %s, le nom du channel est manquant</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__CHANNEL__ADD__CHANNEL__CHANNEL_ALREADY_REGISTERED</code>
+			<value>Impossible d'ajouter %s à %s, le channel est déjà enregistré</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__CHANNEL__ADD__CHANNEL__SOUND_MODIFIER_IS_MISSING</code>
+			<value>Impossible d'ajouter %s à %s, le nom du modifieur de son est manquant</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__CHANNEL__ADD__CHANNEL__SOUND_MODIFIER_NOT_FOUND</code>
+			<value>Impossible d'ajouter %s à %s, le modifieur de son %s n'existe pas</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__CHANNEL__ADD__CHANNEL__CHANNEL_ADDED</code>
+			<value>Le channel %s a été ajouté à %s</value>
+		</message>
 	</messages>
 </dictionary>

@@ -85,6 +85,24 @@ public enum EMumbleServerCode implements ICode {
 	// Code for the "channel add" command ---------------------------------------------------------
 	MUMBLE_SERVER_CL__CHANNEL__ADD__EXPLANATION,
 
+	// Code for the "channel add channel" command -------------------------------------------------
+	MUMBLE_SERVER_CL__CHANNEL__ADD__CHANNEL__EXPLANATION,
+
+	// Code when the name of the channel to add is missing
+	MUMBLE_SERVER_CL__CHANNEL__ADD__CHANNEL__NAME_IS_MISSING,
+
+	// Code when the channel name is already registered
+	MUMBLE_SERVER_CL__CHANNEL__ADD__CHANNEL__CHANNEL_ALREADY_REGISTERED,
+
+	// Code when the sound modifier of the channel to add is missing
+	MUMBLE_SERVER_CL__CHANNEL__ADD__CHANNEL__SOUND_MODIFIER_IS_MISSING,
+
+	// Code when the sound modifier does not exist
+	MUMBLE_SERVER_CL__CHANNEL__ADD__CHANNEL__SOUND_MODIFIER_NOT_FOUND,
+
+	// Code when a channel has been added to a mumble server
+	MUMBLE_SERVER_CL__CHANNEL__ADD__CHANNEL__CHANNEL_ADDED,
+
 	;
 
 	@Override
