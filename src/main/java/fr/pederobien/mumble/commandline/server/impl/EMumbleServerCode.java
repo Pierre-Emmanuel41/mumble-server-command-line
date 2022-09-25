@@ -187,6 +187,9 @@ public enum EMumbleServerCode implements ICode {
 	// Code when a channel has been renamed
 	MUMBLE_SERVER_CL__CHANNEL__RENAME__CHANNEL_RENAMED,
 
+	// Code for the "channel soundModifier" command -----------------------------------------------
+	MUMBLE_SERVER_CL__CHANNEL__SOUNDMODIFIER__EXPLANATION,
+
 	;
 
 	@Override

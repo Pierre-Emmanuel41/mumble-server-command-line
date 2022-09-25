@@ -251,5 +251,9 @@
 			<code>MUMBLE_SERVER_CL__CHANNEL__RENAME__CHANNEL_RENAMED</code>
 			<value>Le channel %s a été renommé en %s</value>
 		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__CHANNEL__SOUNDMODIFIER__EXPLANATION</code>
+			<value>Pour modifier le modifieur de son d'un channel ou les paramètres d'un modifieur de son</value>
+		</message>
 	</messages>
 </dictionary>
