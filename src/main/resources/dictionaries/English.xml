@@ -194,6 +194,34 @@
 			<value>Channels %s have been removed from %s</value>
 		</message>
 		<message>
+			<code>MUMBLE_SERVER_CL__CHANNEL__REMOVE__PLAYER__EXPLANATION</code>
+			<value>To remove players from a channel</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__CHANNEL__REMOVE__PLAYER__CHANNEL_NAME_IS_MISSING</code>
+			<value>Cannot remove players from a channel, the channel name is missing</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__CHANNEL__REMOVE__PLAYER__CHANNEL_NOT_FOUND</code>
+			<value>Cannot remove players from %s, the channel does not exist</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__CHANNEL__REMOVE__PLAYER__PLAYER_NOT_FOUND</code>
+			<value>Cannot remove %s from %s, the player does not exist</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__CHANNEL__REMOVE__PLAYER__NO_PLAYER_REMOVED</code>
+			<value>No player has been removed from %s</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__CHANNEL__REMOVE__PLAYER__ONE_PLAYER_REMOVED</code>
+			<value>Player %s has been removed from %s</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__CHANNEL__REMOVE__PLAYER__SEVERAL_PLAYERS_REMOVED</code>
+			<value>Players %s have been removed from %s</value>
+		</message>
+		<message>
 			<code>MUMBLE_SERVER_CL__CHANNEL__RENAME__EXPLANATION</code>
 			<value>To rename a channel</value>
 		</message>

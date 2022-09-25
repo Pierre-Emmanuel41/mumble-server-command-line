@@ -192,6 +192,34 @@
 			<value>Les channels %s ont été supprimés de %s</value>
 		</message>
 		<message>
+			<code>MUMBLE_SERVER_CL__CHANNEL__REMOVE__PLAYER__EXPLANATION</code>
+			<value>Pour supprimer des joueurs d'un channel</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__CHANNEL__REMOVE__PLAYER__CHANNEL_NAME_IS_MISSING</code>
+			<value>Impossible de supprimer des joueurs d'un channel, le nom du channel est manquant</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__CHANNEL__REMOVE__PLAYER__CHANNEL_NOT_FOUND</code>
+			<value>Impossible de supprimer des joueurs de %s, le channel n'existe pas</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__CHANNEL__REMOVE__PLAYER__PLAYER_NOT_FOUND</code>
+			<value>Impossible de supprimer %s à %s, le joueur n'existe pas</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__CHANNEL__REMOVE__PLAYER__NO_PLAYER_REMOVED</code>
+			<value>Aucun joueur n'a été supprimé de %s</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__CHANNEL__REMOVE__PLAYER__ONE_PLAYER_REMOVED</code>
+			<value>Le joueur %s a été supprimé de %s</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__CHANNEL__REMOVE__PLAYER__SEVERAL_PLAYERS_REMOVED</code>
+			<value>Les joueurs %s ont été supprimé de %s</value>
+		</message>
+		<message>
 			<code>MUMBLE_SERVER_CL__CHANNEL__RENAME__EXPLANATION</code>
 			<value>Pour renommer un channel</value>
 		</message>

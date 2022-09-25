@@ -142,6 +142,27 @@ public enum EMumbleServerCode implements ICode {
 	// Code when several channels have been removed
 	MUMBLE_SERVER_CL__CHANNEL__REMOVE__CHANNEL__SEVERAL_CHANNELS_REMOVED,
 
+	// Code for the "channel remove player" command --------------------------------------------------
+	MUMBLE_SERVER_CL__CHANNEL__REMOVE__PLAYER__EXPLANATION,
+
+	// Code when the channel name is missing
+	MUMBLE_SERVER_CL__CHANNEL__REMOVE__PLAYER__CHANNEL_NAME_IS_MISSING,
+
+	// Code when the channel does not exist
+	MUMBLE_SERVER_CL__CHANNEL__REMOVE__PLAYER__CHANNEL_NOT_FOUND,
+
+	// Code when the player does not exist
+	MUMBLE_SERVER_CL__CHANNEL__REMOVE__PLAYER__PLAYER_NOT_FOUND,
+
+	// Code when no player has been removed to a channel
+	MUMBLE_SERVER_CL__CHANNEL__REMOVE__PLAYER__NO_PLAYER_REMOVED,
+
+	// Code when one player has been removed to a channel
+	MUMBLE_SERVER_CL__CHANNEL__REMOVE__PLAYER__ONE_PLAYER_REMOVED,
+
+	// Code when several players have been removed to a channel
+	MUMBLE_SERVER_CL__CHANNEL__REMOVE__PLAYER__SEVERAL_PLAYERS_REMOVED,
+
 	// Code for the "channel rename" command ------------------------------------------------------
 	MUMBLE_SERVER_CL__CHANNEL__RENAME__EXPLANATION,
 
