@@ -44,6 +44,10 @@
 			<value>&lt;Valeur minimum&gt;</value>
 		</message>
 		<message>
+			<code>MUMBLE_SERVER_CL__MAX_VALUE__COMPLETION</code>
+			<value>&lt;Valeur maximum&gt;</value>
+		</message>
+		<message>
 			<code>MUMBLE_SERVER_CL__ROOT__EXPLANATION</code>
 			<value>Pour effectuer des modifications sur un serveur Mumble.</value>
 		</message>
@@ -381,15 +385,31 @@
 		</message>
 		<message>
 			<code>MUMBLE_SERVER_CL__PARAMETER__MIN_VALUE__VALUE_IS_MISSING</code>
-			<value>Impossible de modifier la valeur minimum de l'intervalle d'un paramètre, la valeur minimum est manquante</value>
+			<value>Impossible de modifier la valeur minimum de l'intervalle de %s, la valeur minimum est manquante</value>
 		</message>
 		<message>
 			<code>MUMBLE_SERVER_CL__PARAMETER__MIN_VALUE__VALUE_BAD_FORMAT</code>
-			<value>Impossible de modifier la valeur minimum de l'intervalle d'un paramètre, la valeur a un mauvais format</value>
+			<value>Impossible de modifier la valeur minimum de l'intervalle de %s, la valeur a un mauvais format</value>
 		</message>
 		<message>
 			<code>MUMBLE_SERVER_CL__PARAMETER__MIN_VALUE__VALUE_SET</code>
 			<value>Le paramètre %s du modifieur de son %s associé au channel %s a désormais %s comme valeur minimum</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__PARAMETER__MAX_VALUE__EXPLANATION</code>
+			<value>Pour modifier la valeur maximum de l'intervalle d'un paramètre</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__PARAMETER__MAX_VALUE__VALUE_IS_MISSING</code>
+			<value>Impossible de modifier la valeur maximum de l'intervalle de %s, la valeur maximum est manquante</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__PARAMETER__MAX_VALUE__VALUE_BAD_FORMAT</code>
+			<value>Impossible de modifier la valeur maximum de l'intervalle de %s, la valeur a un mauvais format</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__PARAMETER__MAX_VALUE__VALUE_SET</code>
+			<value>Le paramètre %s du modifieur de son %s associé au channel %s a désormais %s comme valeur maximum</value>
 		</message>
 	</messages>
 </dictionary>

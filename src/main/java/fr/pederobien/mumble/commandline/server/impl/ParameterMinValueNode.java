@@ -11,7 +11,7 @@ import fr.pederobien.mumble.server.interfaces.ISoundModifier;
 public class ParameterMinValueNode extends ParameterNode {
 
 	/**
-	 * Creates a node in order to update the current value of a parameter.
+	 * Creates a node in order to update the minimum value of the range of a parameter.
 	 * 
 	 * @param parameter The parameter associated to this node.
 	 */

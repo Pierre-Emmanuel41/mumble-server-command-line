@@ -31,6 +31,9 @@ public enum EMumbleServerCode implements ICode {
 	// Code for the parameter minimum value completion
 	MUMBLE_SERVER_CL__MIN_VALUE__COMPLETION,
 
+	// Code for the parameter maximum value completion
+	MUMBLE_SERVER_CL__MAX_VALUE__COMPLETION,
+
 	// Code for the "mumble" command --------------------------------------------------------------
 	MUMBLE_SERVER_CL__ROOT__EXPLANATION,
 
@@ -291,6 +294,18 @@ public enum EMumbleServerCode implements ICode {
 
 	// Code when the minimum value has been set
 	MUMBLE_SERVER_CL__PARAMETER__MIN_VALUE__VALUE_SET,
+
+	// Code for the "parameter maxValue" command -----------------------------------------------------
+	MUMBLE_SERVER_CL__PARAMETER__MAX_VALUE__EXPLANATION,
+
+	// Code when the maximum value is missing
+	MUMBLE_SERVER_CL__PARAMETER__MAX_VALUE__VALUE_IS_MISSING,
+
+	// Code when the maximum value has a bad format
+	MUMBLE_SERVER_CL__PARAMETER__MAX_VALUE__VALUE_BAD_FORMAT,
+
+	// Code when the maximum value has been set
+	MUMBLE_SERVER_CL__PARAMETER__MAX_VALUE__VALUE_SET,
 
 	;
 

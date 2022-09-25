@@ -46,6 +46,10 @@
 			<value>&lt;minimum value&gt;</value>
 		</message>
 		<message>
+			<code>MUMBLE_SERVER_CL__MAX_VALUE__COMPLETION</code>
+			<value>&lt;maximum value&gt;</value>
+		</message>
+		<message>
 			<code>MUMBLE_SERVER_CL__ROOT__EXPLANATION</code>
 			<value>To perform changes on a Mumble server</value>
 		</message>
@@ -383,15 +387,31 @@
 		</message>
 		<message>
 			<code>MUMBLE_SERVER_CL__PARAMETER__MIN_VALUE__VALUE_IS_MISSING</code>
-			<value>Cannot modify the minimum value of the range of a parameter, the minimum value is missing</value>
+			<value>Cannot modify the minimum value of the range of %s, the minimum value is missing</value>
 		</message>
 		<message>
 			<code>MUMBLE_SERVER_CL__PARAMETER__MIN_VALUE__VALUE_BAD_FORMAT</code>
-			<value>Cannot modify the minimum value of the range of a parameter, the minimum value has a bad format</value>
+			<value>Cannot modify the minimum value of the range of %s, the minimum value has a bad format</value>
 		</message>
 		<message>
 			<code>MUMBLE_SERVER_CL__PARAMETER__MIN_VALUE__VALUE_SET</code>
 			<value>The parameter %s of sound modifier %s associated to channel %s has now %s as minimum value</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__PARAMETER__MAX_VALUE__EXPLANATION</code>
+			<value>To modify the maximum value of the range of a parameter</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__PARAMETER__MAX_VALUE__VALUE_IS_MISSING</code>
+			<value>Cannot modify the maximum value of the range of %s, the maximum value is missing</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__PARAMETER__MAX_VALUE__VALUE_BAD_FORMAT</code>
+			<value>Cannot modify the maximum value of the range of %s, the maximum value has a bad format</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__PARAMETER__MAX_VALUE__VALUE_SET</code>
+			<value>The parameter %s of sound modifier %s associated to channel %s has now %s as maximum value</value>
 		</message>
 	</messages>
 </dictionary>	
