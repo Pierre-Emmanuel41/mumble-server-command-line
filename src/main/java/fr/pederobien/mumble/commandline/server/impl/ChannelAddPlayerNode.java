@@ -5,6 +5,7 @@ import java.util.Optional;
 import java.util.function.Predicate;
 import java.util.function.Supplier;
 
+import fr.pederobien.mumble.server.exceptions.PlayerMumbleClientNotJoinedException;
 import fr.pederobien.mumble.server.interfaces.IChannel;
 import fr.pederobien.mumble.server.interfaces.IMumbleServer;
 import fr.pederobien.mumble.server.interfaces.IPlayer;
@@ -58,13 +59,23 @@ public class ChannelAddPlayerNode extends MumbleServerNode {
 				return false;
 			}
 
-			players.add(optPlayer.get());
+			IPlayer player = optPlayer.get();
+			if (optPlayer.get().getChannel() != null) {
+				send(EMumbleServerCode.MUMBLE_SERVER_CL__CHANNEL__ADD__PLAYER__PLAYER_ALREADY_REGISTERED, name, channel.getName(), player.getChannel().getName());
+				return false;
+			}
+
+			players.add(player);
 		}
 
 		String playerNames = concat(extract(args, 1), ", ");
 		for (IPlayer player : players)
-			channel.getPlayers().add(player);
-
+			try {
+				channel.getPlayers().add(player);
+			} catch (PlayerMumbleClientNotJoinedException e) {
+				send(EMumbleServerCode.MUMBLE_SERVER_CL__CHANNEL__ADD__PLAYER__PLAYER_NOT_JOINED, e.getPlayer().getName(), channel.getName());
+				return false;
+			}
 		switch (players.size()) {
 		case 0:
 			send(EMumbleServerCode.MUMBLE_SERVER_CL__CHANNEL__ADD__PLAYER__NO_PLAYER_ADDED, channel.getName());

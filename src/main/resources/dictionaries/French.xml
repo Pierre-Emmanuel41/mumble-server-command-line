@@ -156,6 +156,14 @@
 			<value>Impossible d'ajouter %s à %s, le joueur n'existe pas</value>
 		</message>
 		<message>
+			<code>MUMBLE_SERVER_CL__CHANNEL__ADD__PLAYER__PLAYER_ALREADY_REGISTERED</code>
+			<value>Impossible d'ajouter %s à %s, le joueur est déjà enregistré dans le channel %s</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__CHANNEL__ADD__PLAYER__PLAYER_NOT_JOINED</code>
+			<value>Impossible d'ajouter %s à %s, le joueur n'a pas rejoint le serveur Mumble</value>
+		</message>
+		<message>
 			<code>MUMBLE_SERVER_CL__CHANNEL__ADD__PLAYER__NO_PLAYER_ADDED</code>
 			<value>Aucun joueur n'a été ajouté à %s</value>
 		</message>

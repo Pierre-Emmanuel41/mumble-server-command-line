@@ -158,6 +158,14 @@
 			<value>Cannot add %s to %s, the player does not exist</value>
 		</message>
 		<message>
+			<code>MUMBLE_SERVER_CL__CHANNEL__ADD__PLAYER__PLAYER_ALREADY_REGISTERED</code>
+			<value>Cannot add %s to %s, the player is already registered in channel %s</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__CHANNEL__ADD__PLAYER__PLAYER_NOT_JOINED</code>
+			<value>Cannot add %s to %s, the player has not joined the mumble server</value>
+		</message>
+		<message>
 			<code>MUMBLE_SERVER_CL__CHANNEL__ADD__PLAYER__NO_PLAYER_ADDED</code>
 			<value>No player has been added to %s</value>
 		</message>

@@ -115,6 +115,12 @@ public enum EMumbleServerCode implements ICode {
 	// Code when the player does not exist
 	MUMBLE_SERVER_CL__CHANNEL__ADD__PLAYER__PLAYER_NOT_FOUND,
 
+	// Code when the player is already registered in a channel
+	MUMBLE_SERVER_CL__CHANNEL__ADD__PLAYER__PLAYER_ALREADY_REGISTERED,
+
+	// Code when the player has not joined the mumble server
+	MUMBLE_SERVER_CL__CHANNEL__ADD__PLAYER__PLAYER_NOT_JOINED,
+
 	// Code when no player has been added to a channel
 	MUMBLE_SERVER_CL__CHANNEL__ADD__PLAYER__NO_PLAYER_ADDED,
 
