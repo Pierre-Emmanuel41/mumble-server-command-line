@@ -117,7 +117,7 @@
 		</message>
 		<message>
 			<code>MUMBLE_SERVER_CL__CHANNEL__ADD__CHANNEL__EXPLANATION</code>
-			<value>Pour ajouter un channel a un server mumble</value>
+			<value>Pour ajouter un channel a un server Mumble</value>
 		</message>
 		<message>
 			<code>MUMBLE_SERVER_CL__CHANNEL__ADD__CHANNEL__NAME_IS_MISSING</code>
