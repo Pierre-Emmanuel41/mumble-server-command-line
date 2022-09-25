@@ -301,5 +301,29 @@
 			<code>MUMBLE_SERVER_CL__CHANNEL__SOUND_MODIFIER__DETAILS__SOUND_MODIFIER_DETAILS</code>
 			<value>Properties of channel %s's sound modifier:%n%s</value>
 		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__CHANNEL__SOUND_MODIFIER__SET__EXPLANATION</code>
+			<value>To set the sound modifier of a channel</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__CHANNEL__SOUND_MODIFIER__SET__CHANNEL_NAME_IS_MISSING</code>
+			<value>Cannot set the sound modifier of a channel, the channel name is missing</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__CHANNEL__SOUND_MODIFIER__SET__CHANNEL_NOT_FOUND</code>
+			<value>Cannot set the sound modifier of %s, the channel does not exist</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__CHANNEL__SOUND_MODIFIER__SET__SOUND_MODIFIER_NAME_IS_MISSING</code>
+			<value>Cannot set the sound modifier of %s, the sound modifier name is missing</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__CHANNEL__SOUND_MODIFIER__SET__SOUND_MODIFIER_NOT_FOUND</code>
+			<value>Cannot set the %s as sound modifier for %s, the sound modifier does not exist</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__CHANNEL__SOUND_MODIFIER__SET__SOUND_MODIFIER_SET</code>
+			<value>Channel %s has now %s as sound modifier</value>
+		</message>
 	</messages>
 </dictionary>	

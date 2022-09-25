@@ -299,5 +299,29 @@
 			<code>MUMBLE_SERVER_CL__CHANNEL__SOUND_MODIFIER__DETAILS__SOUND_MODIFIER_DETAILS</code>
 			<value>Caractéristiques du modifieur de son de %s :%n%s</value>
 		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__CHANNEL__SOUND_MODIFIER__SET__EXPLANATION</code>
+			<value>Pour définir le modifieur de son d'un channel</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__CHANNEL__SOUND_MODIFIER__SET__CHANNEL_NAME_IS_MISSING</code>
+			<value>Impossible de définir le modifieur de son d'un channel, le nom du channel est manquant</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__CHANNEL__SOUND_MODIFIER__SET__CHANNEL_NOT_FOUND</code>
+			<value>Impossible de définir le modifieur de son de %s, le channel n'existe pas</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__CHANNEL__SOUND_MODIFIER__SET__SOUND_MODIFIER_NAME_IS_MISSING</code>
+			<value>Impossible de définir le modifieur de son de %s, le nom du modifieur de son est manquant</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__CHANNEL__SOUND_MODIFIER__SET__SOUND_MODIFIER_NOT_FOUND</code>
+			<value>Impossible de définir %s en tant que modifieur de son pour %s, le modifieur de son n'existe pas</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__CHANNEL__SOUND_MODIFIER__SET__SOUND_MODIFIER_SET</code>
+			<value>Le channel %s a maintenant %s en tant que modifieur de son</value>
+		</message>
 	</messages>
 </dictionary>

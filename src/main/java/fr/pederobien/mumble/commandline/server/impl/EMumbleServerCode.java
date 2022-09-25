@@ -223,6 +223,24 @@ public enum EMumbleServerCode implements ICode {
 	// Code to display the details of a sound modifier associated to a channel
 	MUMBLE_SERVER_CL__CHANNEL__SOUND_MODIFIER__DETAILS__SOUND_MODIFIER_DETAILS,
 
+	// Code for the "channel soundModifier set" command -------------------------------------------
+	MUMBLE_SERVER_CL__CHANNEL__SOUND_MODIFIER__SET__EXPLANATION,
+
+	// Code when the channel name is missing
+	MUMBLE_SERVER_CL__CHANNEL__SOUND_MODIFIER__SET__CHANNEL_NAME_IS_MISSING,
+
+	// Code when the channel does not exist
+	MUMBLE_SERVER_CL__CHANNEL__SOUND_MODIFIER__SET__CHANNEL_NOT_FOUND,
+
+	// Code when the sound modifier name is missing
+	MUMBLE_SERVER_CL__CHANNEL__SOUND_MODIFIER__SET__SOUND_MODIFIER_NAME_IS_MISSING,
+
+	// Code when the sound modifier does not exist
+	MUMBLE_SERVER_CL__CHANNEL__SOUND_MODIFIER__SET__SOUND_MODIFIER_NOT_FOUND,
+
+	// Code when the sound modifier has been set
+	MUMBLE_SERVER_CL__CHANNEL__SOUND_MODIFIER__SET__SOUND_MODIFIER_SET,
+
 	;
 
 	@Override
