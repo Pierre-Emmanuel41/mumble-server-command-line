@@ -28,6 +28,9 @@ public enum EMumbleServerCode implements ICode {
 	// Code for the parameter value completion
 	MUMBLE_SERVER_CL__VALUE__COMPLETION,
 
+	// Code for the parameter minimum value completion
+	MUMBLE_SERVER_CL__MIN_VALUE__COMPLETION,
+
 	// Code for the "mumble" command --------------------------------------------------------------
 	MUMBLE_SERVER_CL__ROOT__EXPLANATION,
 
@@ -276,6 +279,18 @@ public enum EMumbleServerCode implements ICode {
 
 	// Code when the parameter has been set
 	MUMBLE_SERVER_CL__PARAMETER__VALUE__VALUE_SET,
+
+	// Code for the "parameter minValue" command -----------------------------------------------------
+	MUMBLE_SERVER_CL__PARAMETER__MIN_VALUE__EXPLANATION,
+
+	// Code when the minimum value is missing
+	MUMBLE_SERVER_CL__PARAMETER__MIN_VALUE__VALUE_IS_MISSING,
+
+	// Code when the minimum value has a bad format
+	MUMBLE_SERVER_CL__PARAMETER__MIN_VALUE__VALUE_BAD_FORMAT,
+
+	// Code when the minimum value has been set
+	MUMBLE_SERVER_CL__PARAMETER__MIN_VALUE__VALUE_SET,
 
 	;
 

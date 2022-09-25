@@ -16,6 +16,7 @@ public class ParameterCommandTree {
 	private IParameter<?> parameter;
 	private ICommandRootNode<ICode> root;
 	private ParameterValueNode valueNode;
+	private ParameterMinValueNode minNode;
 
 	protected ParameterCommandTree() {
 		Consumer<INode<ICode>> displayer = node -> {
@@ -26,6 +27,7 @@ public class ParameterCommandTree {
 
 		root = new CommandRootNode<ICode>("parameter", EMumbleServerCode.MUMBLE_SERVER_CL__PARAMETER__ROOT__EXPLANATION, () -> true, displayer);
 		root.add(valueNode = new ParameterValueNode(() -> getParameter()));
+		root.add(minNode = new ParameterMinValueNode(() -> getParameter()));
 	}
 
 	/**
@@ -56,5 +58,12 @@ public class ParameterCommandTree {
 	 */
 	public ParameterValueNode getValueNode() {
 		return valueNode;
+	}
+
+	/**
+	 * @return The node that modifies the minimum value of a range parameter.
+	 */
+	public ParameterMinValueNode getMinNode() {
+		return minNode;
 	}
 }

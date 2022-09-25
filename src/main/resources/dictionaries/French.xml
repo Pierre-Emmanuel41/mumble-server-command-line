@@ -36,6 +36,14 @@
 			<value>&lt;Port de jeu&gt;</value>
 		</message>
 		<message>
+			<code>MUMBLE_SERVER_CL__VALUE__COMPLETION</code>
+			<value>&lt;valeur&gt;</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__MIN_VALUE__COMPLETION</code>
+			<value>&lt;Valeur minimum&gt;</value>
+		</message>
+		<message>
 			<code>MUMBLE_SERVER_CL__ROOT__EXPLANATION</code>
 			<value>Pour effectuer des modifications sur un serveur Mumble.</value>
 		</message>
@@ -366,6 +374,22 @@
 		<message>
 			<code>MUMBLE_SERVER_CL__PARAMETER__VALUE__VALUE_SET</code>
 			<value>La valeur du paramètre %s du modifieur de son %s associé au channel %s est désormais %s</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__PARAMETER__MIN_VALUE__EXPLANATION</code>
+			<value>Pour modifier la valeur minimum de l'intervalle d'un paramètre</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__PARAMETER__MIN_VALUE__VALUE_IS_MISSING</code>
+			<value>Impossible de modifier la valeur minimum de l'intervalle d'un paramètre, la valeur minimum est manquante</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__PARAMETER__MIN_VALUE__VALUE_BAD_FORMAT</code>
+			<value>Impossible de modifier la valeur minimum de l'intervalle d'un paramètre, la valeur a un mauvais format</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__PARAMETER__MIN_VALUE__VALUE_SET</code>
+			<value>Le paramètre %s du modifieur de son %s associé au channel %s a désormais %s comme valeur minimum</value>
 		</message>
 	</messages>
 </dictionary>
