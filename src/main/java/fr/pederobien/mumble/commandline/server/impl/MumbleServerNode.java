@@ -1,17 +1,13 @@
 package fr.pederobien.mumble.commandline.server.impl;
 
-import java.util.Locale;
 import java.util.function.Function;
 import java.util.function.Supplier;
 
-import fr.pederobien.commandline.CommandLineDictionaryContext;
+import fr.pederobien.commandline.CommandLineNode;
 import fr.pederobien.commandline.ICode;
-import fr.pederobien.commandtree.impl.CommandNode;
-import fr.pederobien.dictionary.impl.MessageEvent;
-import fr.pederobien.mumble.commandline.server.interfaces.IMumbleServerNode;
 import fr.pederobien.mumble.server.interfaces.IMumbleServer;
 
-public class MumbleServerNode extends CommandNode<ICode> implements IMumbleServerNode {
+public class MumbleServerNode extends CommandLineNode {
 	private Supplier<IMumbleServer> server;
 
 	/**
@@ -32,25 +28,5 @@ public class MumbleServerNode extends CommandNode<ICode> implements IMumbleServe
 	 */
 	public IMumbleServer getServer() {
 		return server == null ? null : server.get();
-	}
-
-	/**
-	 * Send a language sensitive message in the console.
-	 * 
-	 * @param code Used as key to get the right message in the right dictionary.
-	 * @param args Some arguments (optional) used for dynamic messages.
-	 */
-	protected void send(ICode code, Object... args) {
-		CommandLineDictionaryContext.instance().send(new MessageEvent(Locale.getDefault(), code.getCode(), args));
-	}
-
-	/**
-	 * Get a message associated to the given code translated in the OS language.
-	 * 
-	 * @param code Used as key to get the right message in the right dictionary.
-	 * @param args Some arguments (optional) used for dynamic messages.
-	 */
-	protected String getMessage(ICode code, Object... args) {
-		return CommandLineDictionaryContext.instance().getMessage(new MessageEvent(Locale.getDefault(), code.getCode(), args));
 	}
 }

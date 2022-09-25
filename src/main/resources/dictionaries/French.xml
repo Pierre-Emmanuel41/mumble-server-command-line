@@ -323,5 +323,49 @@
 			<code>MUMBLE_SERVER_CL__CHANNEL__SOUND_MODIFIER__SET__SOUND_MODIFIER_SET</code>
 			<value>Le channel %s a maintenant %s en tant que modifieur de son</value>
 		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__CHANNEL__SOUND_MODIFIER__MODIFY__EXPLANATION</code>
+			<value>Pour modifier les caractéristiques d'un paramètre d'un modifieur de son associé à un channel</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__CHANNEL__SOUND_MODIFIER__MODIFY__CHANNEL_NAME_IS_MISSING</code>
+			<value>Impossible de modifier les caractéristiques d'un paramètre, le nom du channel est manquant</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__CHANNEL__SOUND_MODIFIER__MODIFY__CHANNEL_NOT_FOUND</code>
+			<value>Impossible de modifier les caractéristiques d'un paramètre du channel %s, le channel n'existe pas</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__CHANNEL__SOUND_MODIFIER__MODIFY__PARAMETER_NAME_IS_MISSING</code>
+			<value>Impossible de modifier les caractéristiques d'un paramètre du channel %s, le nom du paramètre est manquant</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__CHANNEL__SOUND_MODIFIER__MODIFY__PARAMETER_NOT_FOUND</code>
+			<value>Impossible de modifier les caractéristiques du paramètre %s du channel %s, le paramètre n'existe pas</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__PARAMETER__ROOT__EXPLANATION</code>
+			<value>Pour modifier les propriétés d'un paramètre d'un modifieur de son associé à un channel</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__PARAMETER__VALUE__EXPLANATION</code>
+			<value>Pour modifier la valeur actuelle d'un paramètre</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__PARAMETER__VALUE__VALUE_IS_MISSING</code>
+			<value>Impossible de définir la valeur de %s, la valeur est manquante</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__PARAMETER__VALUE__VALUE_BAD_FORMAT</code>
+			<value>Impossible de définir la valeur de %s, la valeur a un mauvais format</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__PARAMETER__VALUE__VALUE_OUT_OF_RANGE</code>
+			<value>Impossible de définir la valeur de %s, la valeur doit être dans l'intervalle [%s,%s]</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__PARAMETER__VALUE__VALUE_SET</code>
+			<value>La valeur du paramètre %s du modifieur de son %s associé au channel %s est désormais %s</value>
+		</message>
 	</messages>
 </dictionary>

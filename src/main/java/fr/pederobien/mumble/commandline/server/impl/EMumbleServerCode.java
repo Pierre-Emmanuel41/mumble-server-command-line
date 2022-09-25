@@ -25,6 +25,9 @@ public enum EMumbleServerCode implements ICode {
 	// Code for the game port number completion
 	MUMBLE_SERVER_CL__GAME_PORT__COMPLETION,
 
+	// Code for the parameter value completion
+	MUMBLE_SERVER_CL__VALUE__COMPLETION,
+
 	// Code for the "mumble" command --------------------------------------------------------------
 	MUMBLE_SERVER_CL__ROOT__EXPLANATION,
 
@@ -240,6 +243,39 @@ public enum EMumbleServerCode implements ICode {
 
 	// Code when the sound modifier has been set
 	MUMBLE_SERVER_CL__CHANNEL__SOUND_MODIFIER__SET__SOUND_MODIFIER_SET,
+
+	// Code for the "channel soundModifier modify" command ----------------------------------------
+	MUMBLE_SERVER_CL__CHANNEL__SOUND_MODIFIER__MODIFY__EXPLANATION,
+
+	// Code when the name of the channel is missing
+	MUMBLE_SERVER_CL__CHANNEL__SOUND_MODIFIER__MODIFY__CHANNEL_NAME_IS_MISSING,
+
+	// Code when the channel does not exist
+	MUMBLE_SERVER_CL__CHANNEL__SOUND_MODIFIER__MODIFY__CHANNEL_NOT_FOUND,
+
+	// Code when the name of the parameter is missing
+	MUMBLE_SERVER_CL__CHANNEL__SOUND_MODIFIER__MODIFY__PARAMETER_NAME_IS_MISSING,
+
+	// Code when the parameter does not exist
+	MUMBLE_SERVER_CL__CHANNEL__SOUND_MODIFIER__MODIFY__PARAMETER_NOT_FOUND,
+
+	// Code for the "parameter" command -----------------------------------------------------------
+	MUMBLE_SERVER_CL__PARAMETER__ROOT__EXPLANATION,
+
+	// Code for the "parameter value" command -----------------------------------------------------
+	MUMBLE_SERVER_CL__PARAMETER__VALUE__EXPLANATION,
+
+	// Code when the value is missing
+	MUMBLE_SERVER_CL__PARAMETER__VALUE__VALUE_IS_MISSING,
+
+	// Code when the value has a bad format
+	MUMBLE_SERVER_CL__PARAMETER__VALUE__VALUE_BAD_FORMAT,
+
+	// Code when the value is out of range
+	MUMBLE_SERVER_CL__PARAMETER__VALUE__VALUE_OUT_OF_RANGE,
+
+	// Code when the parameter has been set
+	MUMBLE_SERVER_CL__PARAMETER__VALUE__VALUE_SET,
 
 	;
 
