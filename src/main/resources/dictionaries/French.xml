@@ -255,5 +255,49 @@
 			<code>MUMBLE_SERVER_CL__CHANNEL__SOUNDMODIFIER__EXPLANATION</code>
 			<value>Pour modifier le modifieur de son d'un channel ou les paramètres d'un modifieur de son</value>
 		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__CHANNEL__SOUND_MODIFIER__DETAILS__EXPLANATION</code>
+			<value>Pour afficher les caractéristiques du modifieur de son associé à un channel</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__CHANNEL__SOUND_MODIFIER__DETAILS__CHANNEL_NAME_IS_MISSING</code>
+			<value>Impossible d'afficher les caractéristiques du modifieur de son d'un channel, le nom du channel est manquant</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__CHANNEL__SOUND_MODIFIER__DETAILS__CHANNEL_NOT_FOUND</code>
+			<value>Impossible d'afficher les caractéristiques du modifieur de son de %s, le channel n'existe pas</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__CHANNEL__SOUND_MODIFIER__DETAILS__SOUND_MODIFIER_NAME</code>
+			<value>Nom : %s</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__CHANNEL__SOUND_MODIFIER__DETAILS__SOUND_MODIFIER_PARAMETERS</code>
+			<value>Paramètres :</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__CHANNEL__SOUND_MODIFIER__DETAILS__PARAMETER_NAME</code>
+			<value>Nom : %s</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__CHANNEL__SOUND_MODIFIER__DETAILS__PARAMETER_VALUE</code>
+			<value>Valeur : %s</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__CHANNEL__SOUND_MODIFIER__DETAILS__PARAMETER_DEFAULT_VALUE</code>
+			<value>Valeur par défaut : %s</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__CHANNEL__SOUND_MODIFIER__DETAILS__PARAMETER_MINIMUM_VALUE</code>
+			<value>Valeur minimum : %s</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__CHANNEL__SOUND_MODIFIER__DETAILS__PARAMETER_MAXIMUM_VALUE</code>
+			<value>Valeur maximum : %s</value>
+		</message>
+		<message>
+			<code>MUMBLE_SERVER_CL__CHANNEL__SOUND_MODIFIER__DETAILS__SOUND_MODIFIER_DETAILS</code>
+			<value>Caractéristiques du modifieur de son de %s :%n%s</value>
+		</message>
 	</messages>
 </dictionary>

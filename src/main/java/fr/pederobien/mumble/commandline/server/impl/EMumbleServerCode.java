@@ -190,6 +190,39 @@ public enum EMumbleServerCode implements ICode {
 	// Code for the "channel soundModifier" command -----------------------------------------------
 	MUMBLE_SERVER_CL__CHANNEL__SOUNDMODIFIER__EXPLANATION,
 
+	// Code for the "channel soundModifier details" command ---------------------------------------
+	MUMBLE_SERVER_CL__CHANNEL__SOUND_MODIFIER__DETAILS__EXPLANATION,
+
+	// Code the name of the channel is missing
+	MUMBLE_SERVER_CL__CHANNEL__SOUND_MODIFIER__DETAILS__CHANNEL_NAME_IS_MISSING,
+
+	// Code when the channel does not exist
+	MUMBLE_SERVER_CL__CHANNEL__SOUND_MODIFIER__DETAILS__CHANNEL_NOT_FOUND,
+
+	// Code to display the name of the sound modifier
+	MUMBLE_SERVER_CL__CHANNEL__SOUND_MODIFIER__DETAILS__SOUND_MODIFIER_NAME,
+
+	// Code to display the parameters of a sound modifier
+	MUMBLE_SERVER_CL__CHANNEL__SOUND_MODIFIER__DETAILS__SOUND_MODIFIER_PARAMETERS,
+
+	// Code to display the name of a parameter
+	MUMBLE_SERVER_CL__CHANNEL__SOUND_MODIFIER__DETAILS__PARAMETER_NAME,
+
+	// Code to display the value of a parameter
+	MUMBLE_SERVER_CL__CHANNEL__SOUND_MODIFIER__DETAILS__PARAMETER_VALUE,
+
+	// Code to display the default value of a parameter
+	MUMBLE_SERVER_CL__CHANNEL__SOUND_MODIFIER__DETAILS__PARAMETER_DEFAULT_VALUE,
+
+	// Code to display the minimum value of a parameter
+	MUMBLE_SERVER_CL__CHANNEL__SOUND_MODIFIER__DETAILS__PARAMETER_MINIMUM_VALUE,
+
+	// Code to display the maximum value of a parameter
+	MUMBLE_SERVER_CL__CHANNEL__SOUND_MODIFIER__DETAILS__PARAMETER_MAXIMUM_VALUE,
+
+	// Code to display the details of a sound modifier associated to a channel
+	MUMBLE_SERVER_CL__CHANNEL__SOUND_MODIFIER__DETAILS__SOUND_MODIFIER_DETAILS,
+
 	;
 
 	@Override
