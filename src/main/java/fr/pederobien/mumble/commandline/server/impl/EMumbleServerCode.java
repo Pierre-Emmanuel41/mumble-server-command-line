@@ -307,6 +307,102 @@ public enum EMumbleServerCode implements ICode {
 	// Code when the maximum value has been set
 	MUMBLE_SERVER_CL__PARAMETER__MAX_VALUE__VALUE_SET,
 
+	// Code for the "mumble details" command ------------------------------------------------------
+	MUMBLE_SERVER_CL__DETAILS__EXPLANATION,
+
+	// Code for the server name
+	MUMBLE_SERVER_CL__DETAILS__SERVER_NAME,
+
+	// Code for the details of sound modifiers
+	MUMBLE_SERVER_CL__DETAILS__SOUND_MODIFIERS,
+
+	// Code for the sound modifier's name
+	MUMBLE_SERVER_CL__DETAILS__SOUND_MODIFIER_NAME,
+
+	// Code for the details of a sound modifier's parameters
+	MUMBLE_SERVER_CL__DETAILS__SOUND_MODIFIER_PARAMETERS,
+
+	// Code for the parameter's name
+	MUMBLE_SERVER_CL__DETAILS__PARAMETER_NAME,
+
+	// Code for the parameter's value
+	MUMBLE_SERVER_CL__DETAILS__PARAMETER_VALUE,
+
+	// Code for the parameter's default value
+	MUMBLE_SERVER_CL__DETAILS__PARAMETER_DEFAULT_VALUE,
+
+	// Code for the parameter's minimum value
+	MUMBLE_SERVER_CL__DETAILS__PARAMETER_MINIMUM_VALUE,
+
+	// Code for the parameter's maximum value
+	MUMBLE_SERVER_CL__DETAILS__PARAMETER_MAXIMUM_VALUE,
+
+	// Code for the details of players
+	MUMBLE_SERVER_CL__DETAILS__PLAYERS,
+
+	// Code for the player's name
+	MUMBLE_SERVER_CL__DETAILS__PLAYER_NAME,
+
+	// Code for the player's identifier
+	MUMBLE_SERVER_CL__DETAILS__PLAYER_IDENTIFIER,
+
+	// Code for the player's online status
+	MUMBLE_SERVER_CL__DETAILS__PLAYER_ONLINE_STATUS,
+
+	// Code when the player is not connected in game
+	MUMBLE_SERVER_CL__DETAILS__PLAYER_OFFLINE,
+
+	// Code when the player is connected in game
+	MUMBLE_SERVER_CL__DETAILS__PLAYER_ONLINE,
+
+	// Code for the player's game address
+	MUMBLE_SERVER_CL__DETAILS__PLAYER_GAME_ADDRESS,
+
+	// Code for the player's administrator status
+	MUMBLE_SERVER_CL__DETAILS__PLAYER_ADMIN_STATUS,
+
+	// Code when the player is an administrator
+	MUMBLE_SERVER_CL__DETAILS__PLAYER_ADMIN,
+
+	// Code when the player is not an administrator
+	MUMBLE_SERVER_CL__DETAILS__PLAYER_NOT_ADMIN,
+
+	// Code for the player's mute status
+	MUMBLE_SERVER_CL__DETAILS__PLAYER_MUTE_STATUS,
+
+	// Code when the player is mute
+	MUMBLE_SERVER_CL__DETAILS__PLAYER_MUTE,
+
+	// Code when the player is not mute
+	MUMBLE_SERVER_CL__DETAILS__PLAYER_NOT_MUTE,
+
+	// Code for the player's mute by status
+	MUMBLE_SERVER_CL__DETAILS__PLAYER_MUTE_BY,
+
+	// Code for the player's deafen status
+	MUMBLE_SERVER_CL__DETAILS__PLAYER_DEAFEN_STATUS,
+
+	// Code when the player is deafen
+	MUMBLE_SERVER_CL__DETAILS__PLAYER_DEAFEN,
+
+	// Code when the player is not deafen
+	MUMBLE_SERVER_CL__DETAILS__PLAYER_NOT_DEAFEN,
+
+	// Code for the player's position
+	MUMBLE_SERVER_CL__DETAILS__PLAYER_POSITION,
+
+	// Code for the details of channels
+	MUMBLE_SERVER_CL__DETAILS__CHANNELS,
+
+	// Code for the channel's name
+	MUMBLE_SERVER_CL__DETAILS__CHANNEL_NAME,
+
+	// Code for the details of the channel's sound modifier
+	MUMBLE_SERVER_CL__DETAILS__CHANNEL_SOUND_MODIFIER,
+
+	// Code for the server configuration
+	MUMBLE_SERVER_CL__DETAILS__SERVER,
+
 	;
 
 	@Override

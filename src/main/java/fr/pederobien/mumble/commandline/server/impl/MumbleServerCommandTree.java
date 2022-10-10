@@ -18,6 +18,7 @@ public class MumbleServerCommandTree {
 	private OpenServerNode openNode;
 	private CloseServerNode closeNode;
 	private ChannelNode channelNode;
+	private DetailsNode detailsNode;
 
 	public MumbleServerCommandTree() {
 		Consumer<INode<ICode>> displayer = node -> {
@@ -30,6 +31,7 @@ public class MumbleServerCommandTree {
 		root.add(openNode = new OpenServerNode(this));
 		root.add(closeNode = new CloseServerNode(this));
 		root.add(channelNode = new ChannelNode(() -> getServer()));
+		root.add(detailsNode = new DetailsNode(() -> getServer()));
 	}
 
 	/**
@@ -74,5 +76,12 @@ public class MumbleServerCommandTree {
 	 */
 	public ChannelNode getChannelNode() {
 		return channelNode;
+	}
+
+	/**
+	 * @return The node that displays the configuration of the mumble server
+	 */
+	public DetailsNode getDetailsNode() {
+		return detailsNode;
 	}
 }
