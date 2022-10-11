@@ -49,7 +49,8 @@ public class ParameterValueNode extends ParameterNode {
 			send(EMumbleServerCode.MUMBLE_SERVER_CL__PARAMETER__VALUE__VALUE_SET, getParameter().getName(), soundModifier.getName(), channel.getName(), value);
 		} catch (IllegalArgumentException e) {
 			// When the parameter as a range
-			send(EMumbleServerCode.MUMBLE_SERVER_CL__PARAMETER__VALUE__VALUE_OUT_OF_RANGE, getRangeParameter().getMin(), getRangeParameter().getMax());
+			send(EMumbleServerCode.MUMBLE_SERVER_CL__PARAMETER__VALUE__VALUE_OUT_OF_RANGE, getParameter().getName(), getRangeParameter().getMin(),
+					getRangeParameter().getMax());
 		}
 		return true;
 	}
