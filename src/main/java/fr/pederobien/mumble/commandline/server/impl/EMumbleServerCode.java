@@ -292,6 +292,9 @@ public enum EMumbleServerCode implements ICode {
 	// Code when the minimum value has a bad format
 	MUMBLE_SERVER_CL__PARAMETER__MIN_VALUE__VALUE_BAD_FORMAT,
 
+	// Code when the minimum value is greater than the maximum value
+	MUMBLE_SERVER_CL__PARAMETER__MIN_VALUE__VALUE_OUT_OF_RANGE,
+
 	// Code when the minimum value has been set
 	MUMBLE_SERVER_CL__PARAMETER__MIN_VALUE__VALUE_SET,
 
@@ -303,6 +306,9 @@ public enum EMumbleServerCode implements ICode {
 
 	// Code when the maximum value has a bad format
 	MUMBLE_SERVER_CL__PARAMETER__MAX_VALUE__VALUE_BAD_FORMAT,
+
+	// Code when the maximum value is less than the minimum value
+	MUMBLE_SERVER_CL__PARAMETER__MAX_VALUE__VALUE_OUT_OF_RANGE,
 
 	// Code when the maximum value has been set
 	MUMBLE_SERVER_CL__PARAMETER__MAX_VALUE__VALUE_SET,

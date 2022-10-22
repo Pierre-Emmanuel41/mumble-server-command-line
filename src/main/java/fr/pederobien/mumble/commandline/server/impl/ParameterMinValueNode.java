@@ -44,8 +44,13 @@ public class ParameterMinValueNode extends ParameterNode {
 
 		ISoundModifier soundModifier = getParameter().getSoundModifier();
 		IChannel channel = soundModifier.getChannel();
-		getRangeParameter().setMin(min);
-		send(EMumbleServerCode.MUMBLE_SERVER_CL__PARAMETER__MIN_VALUE__VALUE_SET, getParameter().getName(), soundModifier.getName(), channel.getName(), min);
+		try {
+			getRangeParameter().setMin(min);
+			send(EMumbleServerCode.MUMBLE_SERVER_CL__PARAMETER__MIN_VALUE__VALUE_SET, getParameter().getName(), soundModifier.getName(), channel.getName(), min);
+		} catch (IllegalArgumentException e) {
+			send(EMumbleServerCode.MUMBLE_SERVER_CL__PARAMETER__MIN_VALUE__VALUE_OUT_OF_RANGE, getRangeParameter().getName(), getRangeParameter().getMax());
+			return false;
+		}
 		return true;
 	}
 }

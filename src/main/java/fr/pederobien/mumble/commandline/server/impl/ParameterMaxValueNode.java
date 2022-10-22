@@ -44,8 +44,13 @@ public class ParameterMaxValueNode extends ParameterNode {
 
 		ISoundModifier soundModifier = getParameter().getSoundModifier();
 		IChannel channel = soundModifier.getChannel();
-		getRangeParameter().setMax(max);
-		send(EMumbleServerCode.MUMBLE_SERVER_CL__PARAMETER__MAX_VALUE__VALUE_SET, getParameter().getName(), soundModifier.getName(), channel.getName(), max);
+		try {
+			getRangeParameter().setMax(max);
+			send(EMumbleServerCode.MUMBLE_SERVER_CL__PARAMETER__MAX_VALUE__VALUE_SET, getParameter().getName(), soundModifier.getName(), channel.getName(), max);
+		} catch (IllegalArgumentException e) {
+			send(EMumbleServerCode.MUMBLE_SERVER_CL__PARAMETER__MAX_VALUE__VALUE_OUT_OF_RANGE, getRangeParameter().getName(), getRangeParameter().getMin());
+			return false;
+		}
 		return true;
 	}
 }
