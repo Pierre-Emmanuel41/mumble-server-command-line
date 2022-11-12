@@ -1,6 +1,6 @@
 package fr.pederobien.mumble.commandline.server.impl;
 
-import fr.pederobien.commandline.ICode;
+import fr.pederobien.dictionary.interfaces.ICode;
 
 public enum EMumbleServerCode implements ICode {
 
